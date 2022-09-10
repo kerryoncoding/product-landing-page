@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/src.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baumans&display=swap"
+      rel="stylesheet"
+    />
+
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <!-- check this issue grabbing image for logo -->
+          <img
+            id="header-img"
+            src="https://assets.codepen.io/7983023/ball_logo.jpg"
+            alt="Orb's Pickleballs"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Round, perforated, injection molded to perfection</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Finest Materials</h2>
+              <p>
+                Our picklballs are crafted from weather-resistant, Low Density
+                Polyethylene. Since this is plastic #4, please recycle your worn
+                out picklballs so they can have a new life for someone else.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Precision Machining</h2>
+              <p>
+                We hand drill each pickleball with precision. Outdoor balls will
+                have 40 holes and weigh 0.9oz. Indoor balls will have 26 holes
+                and weigh 0.8oz.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-fire"></i>
+            </div>
+            <div class="desc">
+              <h2>Vivid Yellow Color Selection</h2>
+              <p>
+                We offer Canary, Laser Lemon, Goldenrod, Unmellow Yellow,
+                Dandelion, Sunglow and crowd favorite, Yellow dye #6.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/h7YzFeKVVrI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="outdoor">
+            <div class="level">Outdoor Balls</div>
+            <h2>3 for $3</h2>
+            <ol>
+              <li>Best for outdoor play.</li>
+              <li>Regulation size</li>
+              <li>Regulation weight</li>
+              <li>Classic sound</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Indoor Balls</div>
+            <h2>3 for $3</h2>
+            <ol>
+              <li>Best for indoor play.</li>
+              <li>Regulation size</li>
+              <li>Regulation weight</li>
+              <li>Modern sound</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">8-count Sharpie Set</div>
+            <h2>$7</h2>
+            <ol>
+              <li>8 Rainbow colors</li>
+              <li>Add ball customization</li>
+              <li>Style your own</li>
+              <li>Permanant</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2022, Orb's Pickleballs</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
